@@ -1,0 +1,31 @@
+{
+  "name": "sears-scenario-planner-web",
+  "version": "2.0.0",
+  "description": "Interactive web-based scenario planner for Sears Home Services media planning",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "build": "echo 'No build step required for static site'"
+  },
+  "keywords": [
+    "media-planning",
+    "scenario-planning",
+    "advertising",
+    "sears",
+    "marketing"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/sears-scenario-planner-web.git"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
